@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+height:100%;
+}
+
+body {
+    color: white;
+    background: rgb(238,174,202);
+    background: linear-gradient(101deg, rgba(238,174,202,1) 0%, rgba(206,196,197,1) 41%, rgba(198,202,207,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 170px;
+    border-radius: 50px;
+    border: 6px solid white;
+    box-shadow: 0 0 20px white;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-animation: floating 2s ease-in-out infinite;
+    animation: floating 2s ease-in-out infinite;
+
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 120;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.paises {
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0px 0;
+}
+
+.paises img {
+    width: 50px;
+    align-items: 20px;
+    -webkit-animation: floating 2s ease-in-out infinite;
+    animation: floating 2s ease-in-out infinite;
+}
+
+.social{
+    display:flex;
+    justify-content: space-around;
+    border-top: 10px;
+    list-style: none;
+    margin: auto;
+    margin-top: 15px;
+    width: 140px;
+    
+}
+.social img {
+    width: 70px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list-second li {
+    margin: 10px 20px;
+    list-style: none;  
+}
+
+.links-list-second li a {
+    display: block;
+    color: #3d020f;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.links-list-second li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+
+}
+
+@-webkit-keyframes floating {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-8px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-8px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
