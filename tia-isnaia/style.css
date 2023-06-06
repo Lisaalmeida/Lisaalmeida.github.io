@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    color: rgb(51, 49, 49);
+    text-align: left;
+    margin-left: 20px;
+    width: 100%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    color: rgb(26, 22, 22);
+}
+
+ul li::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+.fatos{
+    width: auto;
+}
+
+.zap{
+    position: relative;
+    width: 150px;
+}
+
