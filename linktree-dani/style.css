@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background: 100%;
+}
+
+html, body {
+height:100%;
+}
+
+body {
+    color: white;
+    background: rgb(152,76,38);
+    background: linear-gradient(82deg, rgba(152,76,38,1) 15%, rgba(219,103,172,1) 64%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    border: 2px solid white;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    -webkit-animation: floating 2s ease-in-out infinite;
+    animation: floating 2s ease-in-out infinite;
+
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 130;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+} 
+
+
+.social{
+    display:flex;
+    justify-content: space-around;
+    border-top: 10px;
+    list-style: none;
+    margin: auto;
+    margin-top: 15px;
+    width: 140px;
+    
+}
+.social img {
+    width: 50px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list-second li {
+    margin: 10px 20px;
+    list-style: none;  
+    
+}
+
+.links-list-second li a {
+    display: block;
+    color: rgb(69, 69, 95);
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.links-list-second li a span {
+    color: rgb(73, 70, 70);
+    display: block;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+
+}
